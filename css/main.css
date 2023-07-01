@@ -60,7 +60,7 @@ body, html {
  background-size: cover;
  position: absolute;
  left: -100%;
- transition:  var(--transition);
+ transition:  var(--transition)!important;
 
 
 }
