@@ -67,8 +67,8 @@ body, html {
 
 }
 
-.slider_bg {
-	z-index: -5;
+.body > .slider_bg {
+	z-index: 0;
 	transform: rotate(-20deg)!important;
 	top: -90vh;
 	left: -10vh;
