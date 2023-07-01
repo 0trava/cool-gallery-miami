@@ -30,6 +30,7 @@ body, html {
     font-family: raleway_m, sans-serif;
     overflow: hidden;
     line-height: 1.8;
+    position: relative;
 
 }
 
@@ -83,9 +84,13 @@ body, html {
 }
 
 .swiper-wrapper > .slider__item.opened {
+
+    top: 0;
+    left: 0;
 	z-index: 2;
 	transform: rotate(-15deg) scale(1.45);
 	box-shadow: rgb(0 0 0 / .75) 0 0 0 10000px;
+    /* margin: 100%; */
 }
 
 /* Title with text */
