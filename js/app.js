@@ -2,6 +2,7 @@ const sliderMain = new Swiper('.slider_main', {
     freeMode: true,
     centeredSlides: true,
     mousewhell: true,
+    parallax: true,
     breakpoints: {
         0: {
             slidesPerView: 2.5,
