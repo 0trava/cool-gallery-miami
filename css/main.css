@@ -67,13 +67,17 @@ body, html {
 }
 
 .slider_main {
-    z-index: 2;
+    z-index: 5;
 }
 
-.slider_bg {
-    z-index: 1;
-    transform: rotate(-20deg)!important;
-    top: -90vh;
-    left: -10vh;
 
+.slider_bg {
+	z-index: 0;
+	transform: rotate(-20deg)!important;
+	top: -90vh;
+	left: -10vh;
+	opacity: .15;
+	filter: blur(120px) saturate(10);
+    pointer-events:none
+    
 }
