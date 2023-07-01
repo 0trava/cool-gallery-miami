@@ -46,12 +46,13 @@ body, html {
 
 .slier__wrapper {
  transition: var(--transition);
+ will-change: transform;
 }
 
 .slider__item { 
     max-height: 75vh;
     overflow: hidden;
-    position: relative;
+    cursor: pointer;
 }
 
 .slider_img {
@@ -61,6 +62,18 @@ body, html {
  position: absolute;
  left: -100%;
  transition:  var(--transition)!important;
+ will-change: transform;
 
+}
+
+.slider_main {
+    z-index: 2;
+}
+
+.slider_bg {
+    z-index: 1;
+    transform: rotate(-20deg)!important;
+    top: -90vh;
+    left: -10vh;
 
 }

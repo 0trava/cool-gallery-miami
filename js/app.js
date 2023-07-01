@@ -16,3 +16,12 @@ const sliderMain = new Swiper('.slider_main', {
     }
 
 })
+
+const sliderBg= new Swiper('.slider_bg', {
+    centeredSlides: true,
+    parallax: true,
+    slidesPerView: 3.5,
+    spaceBetween: 60, 
+
+
+})
