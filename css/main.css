@@ -36,9 +36,9 @@ body, html {
 
 /* Style for slider */
 
-.slider { 
+.swiper.slider { 
     height: 100%;
-    transform: rotate(15deg);
+    transform: rotate( 15deg );
     overflow: visible;
     top: 10vh;
 
@@ -53,6 +53,7 @@ body, html {
     max-height: 75vh;
     overflow: hidden;
     cursor: pointer;
+    transition: transform var(--transition), box-shadow var(--transition) ;
 }
 
 .slider_img {
@@ -66,13 +67,8 @@ body, html {
 
 }
 
-.slider_main {
-    z-index: 5;
-}
-
-
 .slider_bg {
-	z-index: 0;
+	z-index: -5;
 	transform: rotate(-20deg)!important;
 	top: -90vh;
 	left: -10vh;
@@ -80,4 +76,14 @@ body, html {
 	filter: blur(120px) saturate(10);
     pointer-events:none
     
+}
+
+.slider_bg .slider__item {
+	max-height: 100vh;
+}
+
+.swiper-wrapper > .slider__item.opened {
+	z-index: 2;
+	transform: rotate(-15deg) scale(1.45);
+	box-shadow: rgb(0 0 0 / .75) 0 0 0 10000px;
 }
