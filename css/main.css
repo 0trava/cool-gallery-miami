@@ -31,3 +31,14 @@ body, html {
     line-height: 1.8;
 
 }
+
+
+/* Style for slider */
+
+.slider { 
+    height: 100%;
+    transform: rotate(15deg);
+    overflow: visible;
+    top: 10vh;
+    
+}
