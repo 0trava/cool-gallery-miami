@@ -7,6 +7,7 @@ box-sizing: border-box;
 :root {
     --dark: #070707;
     --sizeindex: calc(1vw + 1vh);
+    --transition: .75s cubic-bezier(.2, .6, 0, 1);
 }
 
 @font-face {
@@ -40,5 +41,9 @@ body, html {
     transform: rotate(15deg);
     overflow: visible;
     top: 10vh;
-    
+
+}
+
+.slier__wrapper {
+ transition: var(--transition);
 }
