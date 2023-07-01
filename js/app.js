@@ -28,13 +28,14 @@ sliderMain.controller.control = sliderBg;
 
 document.querySelectorAll('.slider__item').forEach(item => {
     item.addEventListener('click', event => {
+        item.classList.toggle('opened');
         let chackitem = document.querySelectorAll('.opened');
 
-        if (chackitem.length > 0) {
+        if (chackitem.length > 1) {
             chackitem[0].classList.remove('opened');
         }
 
-        item.classList.toggle('opened')
+        
              
     })
 });
