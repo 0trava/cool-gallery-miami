@@ -29,10 +29,8 @@ sliderMain.controller.control = sliderBg;
 document.querySelectorAll('.slider__item').forEach(item => {
     item.addEventListener('click', event => {
         let chackitem = document.querySelectorAll('.opened');
-        console.log(chackitem.length);
 
         if (chackitem.length > 0) {
-            console.log(chackitem[0].classList);
             chackitem[0].classList.remove('opened');
         }
 
