@@ -6,3 +6,6 @@ Practical work on creating a stunning page with various effects, animation. The 
 Link to the lesson with materials - <a href="https://webdesign-master.ru/blog/html-css/create-cool-gallery-miami.html">here</a>
 
 ![image](https://github.com/0trava/cool-gallery-miami/assets/102797527/a47defdd-9b61-473e-910f-432183f2465e)
+
+![image](https://github.com/0trava/cool-gallery-miami/assets/102797527/023ea341-2cf9-47ab-b011-7b5659b26355)
+
